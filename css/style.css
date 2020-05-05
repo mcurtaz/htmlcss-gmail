@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/sfondo.jpg");
+  background-size: cover;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#logo{
+  height: 80px;
+  vertical-align: middle;
+}
+
+h1{
+  padding-left: 5px;
+  display: inline-block;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+
+header{
+  border-bottom: 1px solid white;
+}
+
+#vai{
+  margin-left: 5px;
+  width: 40px;
+  border-radius: 2px;
+}
+#ricerca{
+  margin: 10px 0;
+  font-family: arial;
+}
+
+#contatore{
+  margin-top: 10px;
+  color: white;
+  line-height: 2em;
+}
+/* cerchietto arancio intorno al numero di mail non lette */
+#numero{
+  display: inline-block;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  background-color: darkorange;
+  text-align: center;
+}
+
+main{
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 15px 0px;
+}
+
+.mail{
+  border: 1px solid black;
+  padding: 2px 5px;
+}
+
+/* colorazioni dello sfondo diverse da mail letta a mail non letta */
+.read{
+  background-color: white;
+}
+
+.unread{
+  background-color: #d8d8d8;
+}
+
+.star{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.oggetto{
+  margin: 0 5px;
+  display: inline-block;
+  font-weight: bold;
+  width: 25%;
+}
+
+.testo{
+  display: inline-block;
+  color: grey;
+}
+
+footer{
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+#footlogo{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Permanent Marker', cursive;
+}

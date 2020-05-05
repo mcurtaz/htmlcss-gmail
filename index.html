@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gimeil</title>
+  </head>
+  <body>
+    <div class="container">   <!-- contenitore di tutti gli elementi -->
+      <header> <!-- intestazione con logo e titolo -->
+        <img id="logo" src="img/gmail.png" alt="logo gmail">
+        <h1>Gmail</h1>
+      </header>
+      <section id="ricerca"> <!-- sezione con ricerca e contatore di mail non lette -->
+        <input type="text" placeholder="search">
+        <input id="vai" type="submit" value="VAI">
+        <div id="contatore">
+            You have <div id="numero">30</div> unread messages
+        </div>
+      </section>
+      <main>   <!-- sezione con le mail -->
+        <div class="mail read">
+          <input  type="checkbox">
+          <div class="star">&#9733;</div>
+          <div class="oggetto">Oggetto della mail</div>
+          <div class="testo">Testo della mail...</div>
+        </div>
+        <div class="mail unread">
+          <input  type="checkbox">
+          <div class="star">&#9733;</div>
+          <div class="oggetto">Oggetto della mail</div>
+          <div class="testo">Testo della mail...</div>
+        </div>
+        <div class="mail read">
+          <input  type="checkbox">
+          <div class="star">&#9733;</div>
+          <div class="oggetto">Oggetto della mail</div>
+          <div class="testo">Testo della mail...</div>
+        </div>
+        <div class="mail unread">
+          <input  type="checkbox">
+          <div class="star">&#9733;</div>
+          <div class="oggetto">Oggetto della mail</div>
+          <div class="testo">Testo della mail...</div>
+        </div>
+        <div class="mail read">
+          <input  type="checkbox">
+          <div class="star">&#9733;</div>
+          <div class="oggetto">Oggetto della mail</div>
+          <div class="testo">Testo della mail...</div>
+        </div>
+      </main>
+      <footer>
+        <span id="footlogo">GMail </span><em>powered by Michele</em>
+      </footer>
+
+    </div>
+
+
+  </body>
+</html>
